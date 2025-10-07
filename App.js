@@ -74,7 +74,7 @@ function Navigation() {
 export default function App() {
   return (
     <>
-      <StatusBar style='light' />
+      <StatusBar hidden={true} />
 
       <AuthContextProvider>
         <Navigation />
